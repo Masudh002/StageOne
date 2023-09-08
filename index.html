@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image__container">
+            <img src="image/DSC_0047.jpg" alt="masudh" data-testid="slackDisplayImage">
+        </div>
+        <div class="content__container">
+           <div class="aboutME__container">
+             <p data-testid="slackUserName">Username:<span>Masudh</span></p>
+             <p data-testid="myTrack">Track: <span>Frontend</span></p>
+           </div>
+           <div class="dayAndTime__container">
+             <p data-testid="currentDayOfTheWeek">Day:<span id="Current__Day"></span></p>
+             <p data-testid="currentUTCTime">UTC Time: <span id="UTC__Time"></span></p>
+                <div class="repository__container">
+                 <button><a href="https://github.com/Masudh002/StageOne" data-testid="githubURL" target="_blank">GitHub Repository</a></button>
+                </div>
+           </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
