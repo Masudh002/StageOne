@@ -32,13 +32,9 @@ body{
     font-size: 25px;
     font-weight: 200;
     color:#DCCA87 ;
-    line-height: 2px;
+    line-height: 2.5px;
 }
-.aboutME__container p span,
-.dayAndTime__container p span{
-    font-size: 20px;
-    color: #000; ;
-}
+
 .repository__container button{
     border: 1px solid #DCCA87;
     height: 40px;
